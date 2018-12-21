@@ -12,6 +12,8 @@
 		145C5B8421CCEDAF000C6922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145C5B8221CCEDAF000C6922 /* Main.storyboard */; };
 		145C5B8621CCEDB1000C6922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145C5B8521CCEDB1000C6922 /* Assets.xcassets */; };
 		145C5B8921CCEDB1000C6922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145C5B8721CCEDB1000C6922 /* LaunchScreen.storyboard */; };
+		145C5B9121CCEE17000C6922 /* ConsoleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C5B9021CCEE17000C6922 /* ConsoleView.swift */; };
+		145C5B9321CCEE3C000C6922 /* ConsoleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 145C5B9221CCEE3C000C6922 /* ConsoleView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		145C5B8521CCEDB1000C6922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		145C5B8821CCEDB1000C6922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		145C5B8A21CCEDB1000C6922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145C5B9021CCEE17000C6922 /* ConsoleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsoleView.swift; sourceTree = "<group>"; };
+		145C5B9221CCEE3C000C6922 /* ConsoleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsoleView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				145C5B8521CCEDB1000C6922 /* Assets.xcassets */,
 				145C5B8721CCEDB1000C6922 /* LaunchScreen.storyboard */,
 				145C5B8A21CCEDB1000C6922 /* Info.plist */,
+				145C5B9021CCEE17000C6922 /* ConsoleView.swift */,
+				145C5B9221CCEE3C000C6922 /* ConsoleView.xib */,
 			);
 			path = ConsoleView;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				145C5B8921CCEDB1000C6922 /* LaunchScreen.storyboard in Resources */,
 				145C5B8621CCEDB1000C6922 /* Assets.xcassets in Resources */,
+				145C5B9321CCEE3C000C6922 /* ConsoleView.xib in Resources */,
 				145C5B8421CCEDAF000C6922 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				145C5B8121CCEDAF000C6922 /* ViewController.swift in Sources */,
+				145C5B9121CCEE17000C6922 /* ConsoleView.swift in Sources */,
 				145C5B7F21CCEDAF000C6922 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
